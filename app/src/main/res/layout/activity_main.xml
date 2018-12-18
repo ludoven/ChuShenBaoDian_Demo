@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_above="@id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_layout"
+        />
+<!--    <com.example.ludoven.chushenbaodian_demo.util.BottomBar
+        android:id="@+id/tab_layout"
+        android:background="#FFFFFF"
+      android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"/>-->
+<!--   <com.ycl.tabview.library.TabView
+       android:id="@+id/tab_layout"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>-->
+    <com.flyco.tablayout.CommonTabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorBaise"
+        android:layout_alignParentBottom="true"
+        app:tl_iconVisible="true"
+        app:tl_iconWidth="20dp"
+        app:tl_iconHeight="20dp"
+        app:tl_indicator_anim_duration="2"
+        app:tl_indicator_bounce_enable="true"
+        app:tl_indicator_anim_enable="true"
+        app:tl_textUnselectColor="@color/color4"
+        app:tl_textSelectColor="@color/tab_select_true"
+        app:tl_textsize="12sp" />
+  <!--  <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:background="@color/colorBaise"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        app:tabTextAppearance="@android:style/TextAppearance.Holo.Small"
+        app:tabIndicatorHeight="0dp"
+        app:tabSelectedTextColor="@color/tab_select_true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabitem_shouye"
+            android:text="@string/tab_shouye"
+            android:icon="@drawable/selector_shouye"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabitem_fenlei"
+            android:text="@string/tab_fenlei"
+            android:icon="@drawable/selector_fenlei"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabitem_zixun"
+            android:text="@string/tab_zixun"
+            android:icon="@drawable/selector_zixun"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabitem_wode"
+            android:icon="@drawable/selector_wode"
+            android:text="@string/tab_wode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+    </android.support.design.widget.TabLayout>-->
+
+<!--    <View
+        android:id="@+id/div_view"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_above="@id/tab_layout"/>-->
+
+
+</RelativeLayout>

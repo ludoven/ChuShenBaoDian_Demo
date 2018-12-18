@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:leon="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/relative_my"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/my_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user_qq"
+        android:layout_centerInParent="true"
+        />
+
+        <TextView
+            android:id="@+id/my_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+           android:gravity="center"
+            android:text="登录/注册"
+            android:textSize="25sp"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="20dp"
+        android:id="@+id/my_view"
+        android:background="@color/div_white"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <com.leon.lib.settingview.LSettingItem
+        android:id="@+id/item_shoucang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        leon:leftIcon="@drawable/ic_shoucang"
+        leon:leftText="我的收藏"/>
+    <com.leon.lib.settingview.LSettingItem
+        android:id="@+id/item_kefu"
+        leon:leftText="在线客服"
+        leon:leftIcon="@drawable/ic_icon_zixun"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <com.leon.lib.settingview.LSettingItem
+        android:id="@+id/item_webview"
+        leon:leftText="更多菜谱"
+        leon:leftIcon="@drawable/ic_icon__fenlei"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <com.leon.lib.settingview.LSettingItem
+        android:id="@+id/item_myInfo"
+        leon:leftText="关于我们"
+        leon:leftIcon="@drawable/ic_icon_geren"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:a_zhon="http://schemas.android.com/tools"
+    android:background="@color/colorBaise"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:id="@+id/scroll_sousuo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+        <scut.carson_ho.searchview.SearchView
+            android:id="@+id/searchview_sousuo"
+            app:textSizeSearch="5dp"
+            app:textColorSearch="#3F51B5"
+            app:textHintSearch="输入查询关键字"
+            app:searchBlockHeight="150"
+            app:iconifiedByDefault="true"
+            app:searchBlockColor="#ffffff"
+           android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview_sousuo"
+        android:layout_below="@id/searchview_sousuo"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/text_sousuo_bottom"
+                android:text="点击加载更多"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_below="@id/recyclerview_sousuo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+   </RelativeLayout>
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_sousuo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/dp_10"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:backgroundTint="@null"
+        android:src="@drawable/ic_top"
+        />
+</RelativeLayout>

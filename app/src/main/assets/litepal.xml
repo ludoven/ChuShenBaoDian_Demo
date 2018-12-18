@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="Caipu_shoucang"></dbname>
+    <version value="6"></version>
+    <list>
+        <mapping class="com.example.ludoven.chushenbaodian_demo.bean.DataBean"></mapping>
+        <mapping class="com.example.ludoven.chushenbaodian_demo.bean.StepsBean"></mapping>
+        <mapping class="com.example.ludoven.chushenbaodian_demo.bean.User"></mapping>
+        <mapping class="com.example.ludoven.chushenbaodian_demo.bean.ListBean"/>
+        <mapping class="com.example.ludoven.chushenbaodian_demo.bean.RecipeBean"/>
+        <mapping class="com.example.ludoven.chushenbaodian_demo.bean.MethodBean"/>
+    </list>
+</litepal>

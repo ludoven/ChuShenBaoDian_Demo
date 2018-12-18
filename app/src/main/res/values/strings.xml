@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">厨神宝典</string>
+    <string name="tab_shouye">首页</string>
+    <string name="tab_fenlei">分类</string>
+    <string name="tab_zixun">咨询</string>
+    <string name="tab_wode">我的</string>
+    <string name="sousuo_name">搜索菜谱</string>
+    <string name="remenjingxuan">每日精选</string>
+    <string name="rementuijian">今日推荐</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancle">取消</string>
+    <string name="title">请选择时间</string>
+    <string name="commit">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+
+    <string name="select_date">选择日期</string>
+    <string name="current_date">当前日期</string>
+    <string name="select_time">选择时间</string>
+    <string name="current_time">当前时间</string>
+    <string name="my_info">当前时间</string>
+
+    <string name="id">请输入手机号</string>
+    <string name="login">登录</string>
+    <string name="password">请输入6~20位的密码</string>
+    <string name="misspassword">无法登录？</string>
+    <string name="newuser">新用户</string>
+    <string name="back">返回</string>
+    <string name="register">注册</string>
+    <string name="auth_code">验证码</string>
+    <string name="check">换一张</string>
+    <string name="isture">确认</string>
+    <string name="findpassword">找回密码</string>
+    <string name="truepassword">确认您的密码</string>
+    <string name="id_true">格式错误</string>
+    <string name="pstrue">密码不一致</string>
+    <string name="autetrue">验证码错误</string>
+    <string name="changepw">修改密码</string>
+    <string name="true_change">确认修改</string>
+    <string name="newpassword">请输入6~20位的新密码</string>
+    <string name="oldpasswors">请输入旧密码</string>
+    <string name="idh">用户不存在</string>
+    <string name="wrongpw">密码输入错误</string>
+</resources>

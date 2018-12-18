@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="tab_un_select">
+        <item name="tab_home">@drawable/ic_icon__shouye</item>
+        <item name="tab_fenlei">@drawable/ic_icon__fenlei</item>
+        <item name="tab_zixun">@drawable/ic_icon_zixun</item>
+        <item name="tab_my">@drawable/ic_icon_geren</item>
+    </integer-array>
+    <integer-array name="tab_select">
+        <item name="tab_home">@drawable/ic_icon_shouye_f</item>
+        <item name="tab_fenlei">@drawable/ic_icon_fenlei_f</item>
+        <item name="tab_zixun">@drawable/ic_icon_zixun_f</item>
+        <item name="tab_my">@drawable/ic_icon_geren_f</item>
+    </integer-array>
+    <string-array name="tab_title">
+        <item>首页</item>
+        <item>分类</item>
+        <item>咨询</item>
+        <item>我的</item>
+    </string-array>
+</resources>
